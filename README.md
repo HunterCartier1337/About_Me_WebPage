@@ -17,4 +17,4 @@ $ flask --app server.py run
 ```
 Then visit 127.0.0.1:5000 to see the webpage
 
-I plan to host this website using the cloud. Either an S3 bucket or https://pythonanywhere.com
+I plan to host this website using the cloud. Either an S3 bucket or https://www.pythonanywhere.com
