@@ -1,24 +1,20 @@
 # A Webpage About Me
 
-This is a website I created with the help of using a template from orson.io
+This is a website I created with the help of using a template from https://en.orson.io and then I edited it with my info
 
 The python web server in flask is not my code
 
 I borrowed it from https://github.com/aneagoie/portfo-updated/blob/main/server.py
 
-Sample website! Since this uses Flask v3>, to run the server command:
+Download repo and setup a python venv to run
 
-The old call command:
 ```
-$ export FLASK_APP=<filename>
-$ flask run
-```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 
-Flask is currently on version 3.0, so the command is now:
+$ flask --app server.py run
 ```
-$ flask --app <filename> run
-```
+Then visit 127.0.0.1:5000 to see the webpage
 
-NOTE: add `--debug` to the end to run in debug mode.
-
-*visit https://zerotomastery.io/ for more*
+I plan to host this website using the cloud. Either an S3 bucket or https://pythonanywhere.com
